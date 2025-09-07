@@ -8,39 +8,16 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Page1">
 
-    <Grid Background="White">
-        <StackPanel Margin="20">
-            <!-- Page Title -->
-            <TextBlock Text="Lecturer Dashboard" 
-                       FontSize="24" 
-                       FontWeight="Bold" 
-                       Foreground="#3A5BA0" 
-                       Margin="0,0,0,20"/>
+    <Grid Margin="20" Background="LightGray">
+        <!-- Header -->
+        <TextBlock Text="Lecturer Dashboard" FontSize="28" FontWeight="Bold" Foreground="#1E3A8A" HorizontalAlignment="Center"/>
 
-            <!-- Dashed border area for claim actions -->
-            <Grid Margin="0,0,0,20">
-                <!-- Dashed rectangle -->
-                <Rectangle Stroke="Gray" StrokeThickness="2" StrokeDashArray="4 2" RadiusX="10" RadiusY="10"/>
-
-                <!-- Content inside the dashed box -->
-                <StackPanel Margin="15">
-                    <Button Content="Submit Claim" 
-                            Width="200" Height="40" Margin="0,0,0,10" 
-                            Background="#3A5BA0" Foreground="White"/>
-
-                    <Button Content="Upload Documents" 
-                            Width="200" Height="40" Margin="0,0,0,10" 
-                            Background="#3A5BA0" Foreground="White"/>
-
-                    <Button Content="Track Claim Status" 
-                            Width="200" Height="40" 
-                            Background="#3A5BA0" Foreground="White"/>
-                </StackPanel>
-            </Grid>
-
-            <!-- Extra info or tips area -->
-            <TextBlock Text="Tip: You can always track your submitted claims under 'Claim Status'." 
-                       FontStyle="Italic" Foreground="Gray"/>
+        <!-- Buttons for actions -->
+        <StackPanel VerticalAlignment="Top" Margin="0,90,0,0" HorizontalAlignment="Center" Width="450">
+            <Button Content="Submit Claim" Height="55" Background="#1E40AF" Foreground="White" FontSize="16" />
+            <Button Content="Upload Supporting Documents" Height="55" Background="#2563EB" Foreground="White" FontSize="16" />
+            <Button Content="Track Claim Status" Height="55" Background="#3B82F6" Foreground="White" FontSize="16" />
         </StackPanel>
+
     </Grid>
 </Page>

@@ -7,7 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
 
-    <Grid Background="#F5F5F5">
+    <Grid Background="LightGray">
         <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Width="400">
             <TextBlock Text="Contract Monthly Claim System" 
                        FontSize="24" FontWeight="Bold" 
@@ -23,7 +23,7 @@
 
             <!-- Manager Login Button -->
             <Button Content="Programme Coordinator / Academic Manager" 
-                    Width="300" Height="50" 
+                    Width="377" Height="50" 
                     Background="#16A34A" Foreground="White" FontSize="16"/>
         </StackPanel>
     </Grid>
